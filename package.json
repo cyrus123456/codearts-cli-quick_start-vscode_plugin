@@ -1,12 +1,12 @@
 {
   "name": "mimo-code-plugin",
-  "displayName": "mimo-code-plugin",
-  "description": "mimo code for VS Code",
+  "displayName": "Mimo Code",
+  "description": "Mimo code assistant for VS Code",
   "version": "1.0.0",
   "publisher": "wuyujiesong",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wuyujiesong/mimo-code-plugin"
+    "url": "https://github.com/ShiDongZhao/mimo-code-plugin"
   },
   "license": "MIT",
   "icon": "images/icon.png",
@@ -18,9 +18,19 @@
     "vscode": "^1.94.0"
   },
   "categories": [
+    "Programming Languages",
     "Other"
   ],
-  "activationEvents": [],
+  "keywords": [
+    "mimo",
+    "ai",
+    "code assistant",
+    "terminal",
+    "coding"
+  ],
+  "extensionKind": [
+    "ui"
+  ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
@@ -56,15 +66,15 @@
     "keybindings": [
       {
         "command": "mimo-code.openTerminal",
-        "title": "Run mimo code",
-        "key": "cmd+escape",
-        "mac": "cmd+escape",
-        "win": "ctrl+escape",
-        "linux": "ctrl+escape"
+        "title": "Open mimo code",
+        "key": "cmd+shift+1",
+        "mac": "cmd+shift+1",
+        "win": "ctrl+shift+1",
+        "linux": "ctrl+shift+1"
       },
       {
         "command": "mimo-code.openNewTerminal",
-        "title": "Run mimo code",
+        "title": "Open mimo code in new tab",
         "key": "cmd+shift+escape",
         "mac": "cmd+shift+escape",
         "win": "ctrl+shift+escape",
@@ -73,10 +83,11 @@
       {
         "command": "mimo-code.addFilepathToTerminal",
         "title": "mimo code: Insert At-Mentioned",
-        "key": "cmd+alt+k",
-        "mac": "cmd+alt+k",
-        "win": "ctrl+alt+K",
-        "linux": "ctrl+alt+K"
+        "key": "cmd+shift+2",
+        "icon": {
+          "light": "images/button-dark.svg",
+          "dark": "images/button-light.svg"
+        }
       }
     ]
   },
