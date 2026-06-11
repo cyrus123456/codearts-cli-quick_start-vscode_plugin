@@ -2,11 +2,11 @@
 
 [中文说明](README.zh-CN.md)
 
-A Visual Studio Code extension that integrates [Mimo Code](https://github.com/wuyujiesong/mimo-code) directly into your development workflow.
+A Visual Studio Code extension that integrates [Mimo Code](https://mimo.xiaomi.com/zh/mimocode/start) directly into your development workflow.
 
 ## Prerequisites
 
-This extension requires the [Mimo Code CLI](https://github.com/wuyujiesong/mimo-code) to be installed on your system.
+This extension requires the [Mimo Code CLI](https://mimo.xiaomi.com/zh/mimocode/start) to be installed on your system.
 
 ## Installation
 

@@ -2,11 +2,11 @@
 
 [English](README.md)
 
-将 [Mimo Code](https://github.com/wuyujiesong/mimo-code) 无缝集成到 VS Code 开发工作流中。
+将 [Mimo Code](https://mimo.xiaomi.com/zh/mimocode/start) 无缝集成到 VS Code 开发工作流中。
 
 ## 前置要求
 
-本插件需要在系统中安装 [Mimo Code CLI](https://github.com/wuyujiesong/mimo-code)。
+本插件需要在系统中安装 [Mimo Code CLI](https://mimo.xiaomi.com/zh/mimocode/start)。
 
 ## 安装方式
 

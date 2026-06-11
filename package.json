@@ -2,7 +2,7 @@
   "name": "mimo-code-plugin",
   "displayName": "Mimo Code",
   "description": "Mimo code assistant for VS Code",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "wuyujiesong",
   "repository": {
     "type": "git",
