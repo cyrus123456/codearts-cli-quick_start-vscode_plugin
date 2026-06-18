@@ -1,7 +1,7 @@
 {
-  "name": "codearts-cli-quick-start-vscode-plugin",
-  "displayName": "CodeArts CLI Quick Start Button",
-  "description": "CodeArts CLI for VS Code",
+  "name": "codearts-cli-button",
+  "displayName": "CodeArts CLI Quick Start",
+  "description": "Quickly launch CodeArts CLI terminal directly from VS Code with keyboard shortcuts, context-aware file sharing, and seamless terminal integration",
   "version": "1.0.1",
   "publisher": "CyrusRune",
   "repository": {
@@ -18,9 +18,12 @@
     "vscode": "^1.94.0"
   },
   "categories": [
-    "Programming Languages",
     "Other"
   ],
+  "bugs": {
+    "url": "https://github.com/CyrusRune/codearts-cli-quick_start-vscode_plugin/issues"
+  },
+  "homepage": "https://github.com/CyrusRune/codearts-cli-quick_start-vscode_plugin#readme",
   "keywords": [
     "codearts",
     "ai",

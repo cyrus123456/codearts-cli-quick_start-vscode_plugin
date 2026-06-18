@@ -4,13 +4,13 @@
 
 A Visual Studio Code extension that integrates [CodeArts](https://codearts.huaweicloud.com/download.html) directly into your development workflow. It adds a quick-launch CodeArts CLI button to the toolbar on the right side of the editor tabs.
 
-![Button position](<images/按钮位置.png>)
+![Button position](images/button-position.png)
 
 ## Prerequisites
 
 This extension requires the [CodeArts CLI](https://codearts.huaweicloud.com/download.html) to be installed on your system.
 
-![CodeArts CLI Download](<images/codearts CLI官网下载.png>)
+![CodeArts CLI Download](images/cli-download.png)
 
 ### Login-Free CLI Startup
 

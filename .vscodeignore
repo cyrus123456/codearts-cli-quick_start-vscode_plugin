@@ -15,9 +15,5 @@ vsc-extension-quickstart.md
 **/*.map
 **/*.ts
 **/.vscode-test.*
-LICENSE
 BUILD.md
-images/icon.png
-images/button-dark.svg
-images/button-light.svg
 **/*.vsix

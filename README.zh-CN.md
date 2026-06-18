@@ -4,13 +4,13 @@
 
 将 [CodeArts](https://codearts.huaweicloud.com/download.html) 无缝集成到 VS Code 开发工作流中。在书签选项卡右侧工具栏中添加快速启动 CodeArts CLI 的按钮。
 
-![按钮位置](<images/按钮位置.png>)
+![按钮位置](images/button-position.png)
 
 ## 前置要求
 
 本插件需要在系统中安装 [CodeArts CLI](https://codearts.huaweicloud.com/download.html)。
 
-![CodeArts CLI 官网下载](<images/codearts CLI官网下载.png>)
+![CodeArts CLI 官网下载](images/cli-download.png)
 
 ### 免登录直接启动 CLI
 
