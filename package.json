@@ -1,8 +1,8 @@
 {
-  "name": "codearts-cli-button",
-  "displayName": "CodeArts CLI Quick Start",
+  "name": "codearts-cli-launcher",
+  "displayName": "CodeArts CLI Launcher",
   "description": "Quickly launch CodeArts CLI terminal directly from VS Code with keyboard shortcuts, context-aware file sharing, and seamless terminal integration",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "publisher": "CyrusRune",
   "repository": {
     "type": "git",
