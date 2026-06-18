@@ -1,6 +1,6 @@
 # codearts-cli-quick_start-vscode_plugin
 
-[English](README.md)
+[![English](https://img.shields.io/badge/Lang-English-blue?style=flat-square)](https://github.com/cyrus123456/codearts-cli-quick_start-vscode_plugin/blob/main/README.md)
 
 将 [CodeArts](https://codearts.huaweicloud.com/download.html) 无缝集成到 VS Code 开发工作流中。在书签选项卡右侧工具栏中添加快速启动 CodeArts CLI 的按钮。
 

@@ -1,6 +1,6 @@
 # codearts-cli-quick_start-vscode_plugin
 
-[中文说明](README.zh-CN.md)
+[![中文说明](https://img.shields.io/badge/Lang-中文说明-red?style=flat-square)](https://github.com/cyrus123456/codearts-cli-quick_start-vscode_plugin/blob/main/README.zh-CN.md)
 
 A Visual Studio Code extension that integrates [CodeArts](https://codearts.huaweicloud.com/download.html) directly into your development workflow. It adds a quick-launch CodeArts CLI button to the toolbar on the right side of the editor tabs.
 
