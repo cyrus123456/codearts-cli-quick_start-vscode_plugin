@@ -1,15 +1,15 @@
 {
-  "name": "mimo-code-plugin",
-  "displayName": "Mimo Code",
-  "description": "Mimo code assistant for VS Code",
+  "name": "codearts-cli-quick-start-vscode-plugin",
+  "displayName": "CodeArts CLI Quick Start Button",
+  "description": "CodeArts CLI for VS Code",
   "version": "1.0.1",
-  "publisher": "wuyujiesong",
+  "publisher": "CyrusRune",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ShiDongZhao/mimo-code-plugin"
+    "url": "https://github.com/CyrusRune/codearts-cli-quick_start-vscode_plugin"
   },
   "license": "MIT",
-  "icon": "images/icon.png",
+  "icon": "images/light_icon.png",
   "galleryBanner": {
     "color": "#000000",
     "theme": "dark"
@@ -22,7 +22,7 @@
     "Other"
   ],
   "keywords": [
-    "mimo",
+    "codearts",
     "ai",
     "code assistant",
     "terminal",
@@ -35,58 +35,58 @@
   "contributes": {
     "commands": [
       {
-        "command": "mimo-code.openTerminal",
-        "title": "Open mimo code",
+        "command": "codearts.openTerminal",
+        "title": "Open CodeArts",
         "icon": {
-          "light": "images/button-dark.svg",
-          "dark": "images/button-light.svg"
+          "light": "images/light_icon.png",
+          "dark": "images/light_icon.png"
         }
       },
       {
-        "command": "mimo-code.openNewTerminal",
-        "title": "Open mimo code in new tab",
+        "command": "codearts.openNewTerminal",
+        "title": "Open CodeArts in new tab",
         "icon": {
-          "light": "images/button-dark.svg",
-          "dark": "images/button-light.svg"
+          "light": "images/light_icon.png",
+          "dark": "images/light_icon.png"
         }
       },
       {
-        "command": "mimo-code.addFilepathToTerminal",
+        "command": "codearts.addFilepathToTerminal",
         "title": "Add Filepath to Terminal"
       }
     ],
     "menus": {
       "editor/title": [
         {
-          "command": "mimo-code.openNewTerminal",
+          "command": "codearts.openNewTerminal",
           "group": "navigation"
         }
       ]
     },
     "keybindings": [
       {
-        "command": "mimo-code.openTerminal",
-        "title": "Open mimo code",
+        "command": "codearts.openTerminal",
+        "title": "Open CodeArts",
         "key": "cmd+shift+1",
         "mac": "cmd+shift+1",
         "win": "ctrl+shift+1",
         "linux": "ctrl+shift+1"
       },
       {
-        "command": "mimo-code.openNewTerminal",
-        "title": "Open mimo code in new tab",
+        "command": "codearts.openNewTerminal",
+        "title": "Open CodeArts in new tab",
         "key": "cmd+shift+escape",
         "mac": "cmd+shift+escape",
         "win": "ctrl+shift+escape",
         "linux": "ctrl+shift+escape"
       },
       {
-        "command": "mimo-code.addFilepathToTerminal",
-        "title": "mimo code: Insert At-Mentioned",
+        "command": "codearts.addFilepathToTerminal",
+        "title": "CodeArts: Insert At-Mentioned",
         "key": "cmd+shift+2",
         "icon": {
-          "light": "images/button-dark.svg",
-          "dark": "images/button-light.svg"
+          "light": "images/light_icon.png",
+          "dark": "images/light_icon.png"
         }
       }
     ]

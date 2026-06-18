@@ -3,15 +3,15 @@ export function deactivate() {}
 
 import * as vscode from "vscode";
 
-const TERMINAL_NAME = "mimo-code";
+const TERMINAL_NAME = "codearts";
 
 export function activate(context: vscode.ExtensionContext) {
-  const openNewTerminalDisposable = vscode.commands.registerCommand("mimo-code.openNewTerminal", async () => {
+  const openNewTerminalDisposable = vscode.commands.registerCommand("codearts.openNewTerminal", async () => {
     await openTerminal();
   });
 
-  const openTerminalDisposable = vscode.commands.registerCommand("mimo-code.openTerminal", async () => {
-    // A mimo-code terminal already exists => focus it
+  const openTerminalDisposable = vscode.commands.registerCommand("codearts.openTerminal", async () => {
+    // A codearts terminal already exists => focus it
     const existingTerminal = vscode.window.terminals.find((t) => t.name === TERMINAL_NAME);
     if (existingTerminal) {
       existingTerminal.show();
@@ -21,7 +21,7 @@ export function activate(context: vscode.ExtensionContext) {
     await openTerminal();
   });
 
-  let addFilepathDisposable = vscode.commands.registerCommand("mimo-code.addFilepathToTerminal", async () => {
+  let addFilepathDisposable = vscode.commands.registerCommand("codearts.addFilepathToTerminal", async () => {
     const fileRef = getActiveFile();
     if (!fileRef) {
       return;
@@ -34,7 +34,7 @@ export function activate(context: vscode.ExtensionContext) {
 
     if (terminal.name === TERMINAL_NAME) {
       // @ts-ignore
-      const port = terminal.creationOptions.env?.["_EXTENSION_MIMO_PORT"];
+      const port = terminal.creationOptions.env?.["_EXTENSION_CODEARTS_PORT"];
       port ? await appendPrompt(parseInt(port), fileRef) : terminal.sendText(fileRef, false);
       terminal.show();
     }
@@ -44,25 +44,25 @@ export function activate(context: vscode.ExtensionContext) {
 
   async function openTerminal() {
     // Create a new terminal in split screen
-    const port = Math.floor(Math.random() * (65535 - 16384 + 1)) + 16384;
+    const port = Math.floor(Math.random() * (65535 - 49152 + 1)) + 49152;
     const terminal = vscode.window.createTerminal({
       name: TERMINAL_NAME,
       iconPath: {
-        light: vscode.Uri.file(context.asAbsolutePath("images/button-dark.svg")),
-        dark: vscode.Uri.file(context.asAbsolutePath("images/button-light.svg")),
+        light: vscode.Uri.file(context.asAbsolutePath("images/light_icon.png")),
+        dark: vscode.Uri.file(context.asAbsolutePath("images/light_icon.png")),
       },
       location: {
         viewColumn: vscode.ViewColumn.Beside,
         preserveFocus: false,
       },
       env: {
-        _EXTENSION_MIMO_PORT: port.toString(),
-        MIMO_CALLER: "vscode",
+        _EXTENSION_CODEARTS_PORT: port.toString(),
+        CODEARTS_CALLER: "vscode",
       },
     });
 
     terminal.show();
-    terminal.sendText(`mimo --port ${port}`);
+    terminal.sendText(`codearts`);
 
     const fileRef = getActiveFile();
     if (!fileRef) {

@@ -4,6 +4,7 @@ out/**
 node_modules/**
 src/**
 script/**
+.codeartsdoer/**
 .gitignore
 .yarnrc
 bun.lock
@@ -16,3 +17,7 @@ vsc-extension-quickstart.md
 **/.vscode-test.*
 LICENSE
 BUILD.md
+images/icon.png
+images/button-dark.svg
+images/button-light.svg
+**/*.vsix

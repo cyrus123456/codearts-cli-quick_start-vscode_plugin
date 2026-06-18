@@ -55,7 +55,7 @@ vsce package
 vsce publish
 ```
 
-需要先 `vsce create-publisher`（publisher: `wuyujiesong`）并配置 PAT。
+需要先 `vsce create-publisher`（publisher: `CyrusRune`）并配置 PAT。
 
 ## 本地安装
 
