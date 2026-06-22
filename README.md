@@ -45,7 +45,7 @@ If you encounter issues or have feedback, please create an issue at https://gith
 ## Development
 
 1. Open the project directory in VS Code
-2. Run `npm install` to install dependencies
+2. Run `bun install` to install dependencies
 3. Press `F5` to launch the Extension Development Host
 
 ### Making Changes
